@@ -1,0 +1,77 @@
+.button{
+    visibility: hidden;
+}
+body {
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#2E3192,#1BFFFF);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-image:linear-gradient(#EE9CA7,#FFDDE1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.amount,
+.dropDownTo,
+.dropDownFrom {
+    margin-bottom: 20px;
+}
+
+.amount p,
+.dropDownTo p,
+.dropDownFrom p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.para {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.para1{
+    font-size: 30px;
+}
+#input{
+    height: 25px;
+    width: 250px;
+}
